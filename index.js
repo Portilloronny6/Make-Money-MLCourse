@@ -1,8 +1,7 @@
 /*jshint esversion: 8 */
 
+const webcamElement = document.getElementById('webcam');
 const classifier = knnClassifier.create();
-
-const webcamElement = document.getElementById("webcam");
 
 let net;
 
