@@ -1,5 +1,4 @@
 /* First Section */
-
 #firstSection {
   background-color: #DDDDDD;
   text-align: center;
@@ -9,6 +8,7 @@
 #firstSection .camera .camera1 {
   background-color: #fff;
   border-radius: 10%;
+  margin-bottom: 5%;
 }
 
 /* PIE DE PÁGINA*/
@@ -53,4 +53,16 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+@media (max-width: 800px) {
+.footer1 {
+    text-align: center;
+    margin: auto;
+    padding: 0;
+  }
+
+.footer2 {
+  padding: 0 0 4% 0;
+}
 }
