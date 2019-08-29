@@ -1,8 +1,10 @@
-let net;
+/*jshint esversion: 8 */
 
 const classifier = knnClassifier.create();
 
 const webcamElement = document.getElementById("webcam");
+
+let net;
 
 async function app() {
   console.log('Loading mobilenet..');

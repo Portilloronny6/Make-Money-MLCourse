@@ -1,0 +1,56 @@
+/* First Section */
+
+#firstSection {
+  background-color: #DDDDDD;
+  text-align: center;
+  padding: 5% 0;
+}
+
+#firstSection .camera .camera1 {
+  background-color: #fff;
+  border-radius: 10%;
+}
+
+/* PIE DE PÁGINA*/
+#pie {
+  padding: 1% 2% 0;
+  color: #fff;
+  background-image: linear-gradient(rgba(31, 39, 73, 0.85), rgba(31, 39, 73, 0.7));
+  background-size: cover;
+}
+
+.footer1, .footer2 {
+  padding: 1% 2%;
+}
+
+.footer1 h4 {
+  padding-bottom: 10%;
+}
+
+.footer1 a {
+  color: #fff;
+}
+
+.footer2 {
+  margin: auto;
+  padding-right: 20%;
+}
+
+.footer2 i {
+  color: #fff;
+  margin-left: 15%;
+}
+
+.footer2 i:hover {
+  transform: rotate(360deg);
+  transition: 1s;
+}
+
+.footer3 {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
